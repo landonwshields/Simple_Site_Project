@@ -1,0 +1,71 @@
+.header{
+  background-color: rgb(25, 25, 25);
+  color: rgb(150, 150, 150);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+h1{
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+h5{
+  font-size: 20px;
+  margin-top: 0;
+}
+.companyName{
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+  width: 33%;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.baconImage{
+  width: 630px;
+  height: 300px;
+  margin-left: 40%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section{
+  display: flex;
+  margin: 70px;
+}
+
+article{
+  padding: 20px;
+}
+
+
+.readMore{
+  display: flex;
+  justify-content: flex-end;
+  color: orange;
+}
+
+.smallBacon{
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.footer{
+  padding: 10px;
+  padding-left: 30px;
+  background-color: rgb(25, 25, 25);
+  color: rgb(150, 150, 150);
+  display: flex;
+  justify-content: flex-start;
+
+}
